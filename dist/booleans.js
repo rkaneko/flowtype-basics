@@ -2,7 +2,7 @@
 
 (true);
 (false);
-("blahblah");  // Error
+('blahblah');  // Error
 (undefined);  // Error
 (null);  // Error
 (0);  // Error
@@ -13,6 +13,6 @@ function reverse(flag) {
 
 reverse(true);
 reverse(false);
-reverse("text");  // Error
+reverse('text');  // Error
 reverse(0);  // Error
 reverse(Boolean(0));
